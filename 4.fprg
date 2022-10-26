@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27556"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-26 04:24:26 PM"/>
+        <attribute name="created" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswODo0ODowMCBBTTsyMjI1"/>
+        <attribute name="edited" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswOToxNzowMyBBTTs0OzIzMzY="/>
+        <attribute name="edited" value="ZG5vd2E7TEFQVE9QLUxVVkczRkdFOzIwMjItMTAtMjY7MDk6NDE6MDEgQU07MTsyOTky"/>
+        <attribute name="edited" value="czI3MzA1O0xBQjExMVctMTM7MjAyMi0xMC0yNjswNDoyNDoyNiBQTTsxOzIzNDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, a, b" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="z" expression="0"/>
+            <for variable="a" start="1" end="y" direction="inc" step="1">
+                <input variable="b"/>
+                <assign variable="z" expression="z+(10-b)"/>
+            </for>
+            <output expression="z+x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
